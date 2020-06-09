@@ -1,0 +1,62 @@
+.brand-header {
+  font-weight: 400;
+  font-size: 52px;
+  font-family: "Bentham", serif;
+
+}
+
+.brand-text {
+  font-family: "Bentham", serif;
+  font-size: 28px;
+  font-weight: normal;
+
+}
+
+.center-bottom {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+}
+
+.center-left {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+}
+
+.date-picker-box {
+  width: 100% auto;
+  background: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img {
+  height: 100vh;
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+  /* text-align: center; */
+}
+
+.img-header {
+  font-family: "Bentham", serif;
+  font-weight: normal;
+  font-size: 60px;
+}
+
+li {
+  color: black;
+}
+
+.pt-max {
+  padding-top: 85px;
+}
+
+.spacer {
+  margin-left: 50px;
+  margin-right: 50px;
+}

@@ -277,7 +277,7 @@ footer .contact ul li {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .header .heading {
         font-size: 12px;
     }
@@ -365,14 +365,6 @@ footer .contact ul li {
     footer .contact #text-7 {
         font-size: 10px;
     }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-    .economy .text .links .book-now, .standard .text .links .book-now {
-        font-size: 12px;
-    }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

@@ -187,7 +187,7 @@ ul li {
 /* footer */
 footer {
     background: #333333;
-    height: 46vh;
+    height: 50%;
     margin-top: 50px;;
 }
 
@@ -368,23 +368,50 @@ footer .contact ul li {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     .economy .text .links .book-now, .standard .text .links .book-now {
         font-size: 12px;
     }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .economy .text .links .book-now, .standard .text .links .book-now {
-        font-size: 12px;
+    .economy .text .links .more, .standard .text .links .more {
+        display: block;
+        margin-top: 20px;
+        border-bottom: 0;
+        text-decoration: underline;
+    }
+
+    .standard .text-small-screen {
+        order: 1;
+    }
+
+    .standard .img-small-screen {
+        order: 2;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .standard .text-small-screen {
+        order: 1;
+    }
+
+    .standard .img-small-screen {
+        order: 2;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     
+    .standard .text-small-screen {
+        order: 1;
+    }
+
+    .standard .img-small-screen {
+        order: 2;
+    }
 }
